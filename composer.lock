@@ -3681,6 +3681,56 @@
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/redis-cache/"
         },
+		
+        {
+            "name": "wpackagist-plugin/buddypress",
+            "version": "10.2.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/buddypress/",
+                "reference": "tags/10.2.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/buddypress.10.2.0.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/buddypress/"
+        },
+		     {
+            "name": "trendwerk/csv-importer",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/trendwerk/csv-importer.git",
+                "reference": "ecc155f91031cad1e45887256794ffb95d328e95"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/trendwerk/csv-importer/zipball/ecc155f91031cad1e45887256794ffb95d328e95",
+                "reference": "ecc155f91031cad1e45887256794ffb95d328e95",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Harold Angenent",
+                    "email": "harold@trendwerk.nl"
+                }
+            ],
+            "description": "Starter plugin for creating a CSV import tool. Made for WordPress.",
+            "time": "2015-04-16T14:21:42+00:00"
+        },
         {
             "name": "wpackagist-plugin/sendgrid-email-delivery-simplified",
             "version": "1.11.7",
